@@ -2,7 +2,7 @@ import { WeaponStatsSerializerV3 } from './IPC/weapon_stats.ipc';
 import { IPC, PROTO } from './IPC/ipc';
 import { world } from '@minecraft/server';
 
-// Refer to (future repo link here)
+// https://github.com/azurite-bedrock/Sweep-N-Slash/blob/main/CROSS_COMPATIBILITY_GUIDE.md
 
 /* Possible flags:
 - is_weapon: Whether the item should be treated as a weapon. If not set, attacking with this item will deplete durability by 2.
